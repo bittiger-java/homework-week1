@@ -9,7 +9,7 @@
     "timestamp": "2017-04-01T18:50:35Z",
     "userInfo": {
       "username": "ross0",
-      "address": "504 CS Street, Mountain View, CA 88888"
+      "address": "503 CS Street, Mountain View, CA 88888"
     }
   },
   {
@@ -22,7 +22,7 @@
     "timestamp": "2017-04-01T18:50:35Z",
     "userInfo": {
       "username": "ross1",
-      "address": "504 CS Street, Mountain View, CA 88888"
+      "address": "503 CS Street, Mountain View, CA 88888"
     }
   },
   {
@@ -35,7 +35,7 @@
     "timestamp": "2017-04-01T18:50:35Z",
     "userInfo": {
       "username": "ross2",
-      "address": "504 CS Street, Mountain View, CA 88888"
+      "address": "503 CS Street, Mountain View, CA 88888"
     }},
   {
     "runningId": "28810a26-25e6-4680-8baf-59bb07c4aee0",
@@ -47,7 +47,7 @@
     "timestamp": "2017-04-01T18:50:35Z",
     "userInfo": {
       "username": "ross3",
-      "address": "504 CS Street, Mountain View, CA 88888"
+      "address": "503 CS Street, Mountain View, CA 88888"
     }
   },
   {
@@ -60,7 +60,7 @@
     "timestamp": "2017-04-01T18:50:35Z",
     "userInfo": {
       "username": "ross4",
-      "address": "504 CS Street, Mountain View, CA 88888"
+      "address": "503 CS Street, Mountain View, CA 88888"
     }
   },
   {
@@ -73,7 +73,7 @@
     "timestamp": "2017-04-01T18:50:35Z",
     "userInfo": {
       "username": "ross5",
-      "address": "504 CS Street, Mountain View, CA 88888"
+      "address": "503 CS Street, Mountain View, CA 88888"
     }
   },
   {
@@ -85,7 +85,7 @@
     "heartRate": 0,
     "timestamp": "2017-04-01T18:50:35Z","userInfo": {
     "username": "ross6",
-    "address": "504 CS Street, Mountain View, CA 88888"
+    "address": "503 CS Street, Mountain View, CA 88888"
     }
   }
 ]

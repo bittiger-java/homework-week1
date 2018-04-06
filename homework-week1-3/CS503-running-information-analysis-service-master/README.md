@@ -1,4 +1,4 @@
-# CS504-running-information-analysis-service
+# CS503-running-information-analysis-service
 **running-information-analysis-service** is a RESTful service in spring boot, using *[Maven](https://maven.apache.org/)* as build tool.
 
 **Feature List:**
@@ -40,13 +40,13 @@ mysql> CREATE TABLE RUNNING_ANALYSIS (id BIGINT(20) AUTO_INCREMENT, runningId VA
 mysql> EXIT;
 ```
 #### 4. Build and run Spring Boot application
-> Change directory to `/your/path/CS504-running-information-analysis-service` before running the following commands.
+> Change directory to `/your/path/CS503-running-information-analysis-service` before running the following commands.
 ```
 mvn clean install
 java -jar ./target/running-information-analysis-service-1.0.0.BUILD-SNAPSHOT.jar
 ```
 #### 5. Upload runningInfo.json data
-> Run the command uhder the directory `/your/path/CS504-running-information-analysis-service`.
+> Run the command uhder the directory `/your/path/CS503-running-information-analysis-service`.
 ```
 curl -H "Content-Type: application/json" localhost:8080/runningInfo -d @runningInfo.json
 ```
@@ -85,7 +85,7 @@ Data Example:
     "timestamp": "2017-04-01T18:50:35Z",
     "userInfo": {
       "username": "ross0",
-      "address": "504 CS Street, Mountain View, CA 88888"
+      "address": "503 CS Street, Mountain View, CA 88888"
     }
   }
 ]
@@ -163,7 +163,7 @@ Sample Response:
         "totalRunningTime": 3011.23,
         "heartRate": 198,
         "userName": "ross1",
-        "userAddress": "504 CS Street, Mountain View, CA 88888",
+        "userAddress": "503 CS Street, Mountain View, CA 88888",
         "healthWarningLevel": "HIGH"
     },
     {
@@ -172,7 +172,7 @@ Sample Response:
         "totalRunningTime": 123,
         "heartRate": 189,
         "userName": "ross4",
-        "userAddress": "504 CS Street, Mountain View, CA 88888",
+        "userAddress": "503 CS Street, Mountain View, CA 88888",
         "healthWarningLevel": "HIGH"
     }
 ]
@@ -210,7 +210,7 @@ Sample Response:
         "totalRunningTime": 85560.23,
         "heartRate": 129,
         "userName": "ross2",
-        "userAddress": "504 CS Street, Mountain View, CA 88888",
+        "userAddress": "503 CS Street, Mountain View, CA 88888",
         "healthWarningLevel": "HIGH"
     },
     {
@@ -219,7 +219,7 @@ Sample Response:
         "totalRunningTime": 85431.23,
         "heartRate": 179,
         "userName": "ross2",
-        "userAddress": "504 CS Street, Mountain View, CA 88888",
+        "userAddress": "503 CS Street, Mountain View, CA 88888",
         "healthWarningLevel": "HIGH"
     }
 ]
